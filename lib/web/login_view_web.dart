@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class LoginViewWeb extends HookConsumerWidget {
+class LoginViewWeb extends ConsumerWidget {
   const LoginViewWeb({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(),
-      ),
-    );
+    return SafeArea(child: Scaffold(appBar: AppBar()));
   }
 }

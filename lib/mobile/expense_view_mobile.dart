@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 bool isLoading = true;
 
-class ExpenseViewMobile extends HookConsumerWidget {
+class ExpenseViewMobile extends ConsumerWidget {
   const ExpenseViewMobile({super.key});
 
   @override
