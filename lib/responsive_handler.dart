@@ -1,11 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_budget_app/mobile/expense_view_mobile.dart';
-import 'package:my_budget_app/mobile/login_view_mobile.dart';
-import 'package:my_budget_app/providers/auth_providers.dart';
-import 'package:my_budget_app/web/expense_view_web.dart';
-import 'package:my_budget_app/web/login_view_web.dart';
+import 'package:my_budget_app/features/expenses/view/expense_view_mobile.dart';
+import 'package:my_budget_app/features/auth/view/login_view_mobile.dart';
+import 'package:my_budget_app/features/auth/providers/auth_providers.dart';
+import 'package:my_budget_app/features/expenses/view/expense_view_web.dart';
+import 'package:my_budget_app/features/auth/view/login_view_web.dart';
 
 class ResponsiveHandler extends ConsumerWidget {
   const ResponsiveHandler({super.key});
